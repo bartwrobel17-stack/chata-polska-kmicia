@@ -1,0 +1,1 @@
+import type {MetadataRoute}from"next"; export default function robots():MetadataRoute.Robots{return{rules:{userAgent:"*",allow:"/"},sitemap:"https://chata-polska-kmicia.vercel.app/sitemap.xml"}}
