@@ -1,0 +1,1 @@
+import type {Metadata} from "next"; import "./globals.css"; export const metadata:Metadata={title:"Chata Polska Mićica | Rawicz",description:"Tradycyjna kuchnia jak u mamy. Świeżo, smacznie i bez konserwantów. Ul. Kmicia 3, Rawicz."}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="pl"><body>{children}</body></html>}
